@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "tasks": [
+    {
+      "task": "build",
+      "label": "Build",
+      "group": "build",
+      "problemMatcher": ["$msCompile"],
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Backend",
+        "Frontend"
+      ]
+    },
+    {
+      "task": "run",
+      "label": "Backend",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "/TaxCalculator.API/PaySpace.Calculator.API.csproj"
+      ],
+      "isBackground": true,
+      "presentation": {
+        "reveal": "silent"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "task": "run",
+      "label": "Frontend",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "/TaxCalculator.FE/PaySpace.Calculator.Web.csproj"
+      ],
+      "isBackground": true,
+      "presentation": {
+        "reveal": "silent"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
