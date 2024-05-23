@@ -20,23 +20,32 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		MultipleStartups|Any CPU = MultipleStartups|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7BC9DCCE-D03F-44F4-80F0-282AE37A5171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7BC9DCCE-D03F-44F4-80F0-282AE37A5171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC9DCCE-D03F-44F4-80F0-282AE37A5171}.MultipleStartups|Any CPU.ActiveCfg = MultipleStartups|Any CPU
+		{7BC9DCCE-D03F-44F4-80F0-282AE37A5171}.MultipleStartups|Any CPU.Build.0 = MultipleStartups|Any CPU
 		{7BC9DCCE-D03F-44F4-80F0-282AE37A5171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BC9DCCE-D03F-44F4-80F0-282AE37A5171}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BD025E7-C466-4387-BC20-DAA133FBF2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BD025E7-C466-4387-BC20-DAA133FBF2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD025E7-C466-4387-BC20-DAA133FBF2BA}.MultipleStartups|Any CPU.ActiveCfg = MultipleStartups|Any CPU
+		{0BD025E7-C466-4387-BC20-DAA133FBF2BA}.MultipleStartups|Any CPU.Build.0 = MultipleStartups|Any CPU
 		{0BD025E7-C466-4387-BC20-DAA133FBF2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD025E7-C466-4387-BC20-DAA133FBF2BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CA1B84D-1536-431E-A51F-D946A2BAABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CA1B84D-1536-431E-A51F-D946A2BAABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA1B84D-1536-431E-A51F-D946A2BAABB2}.MultipleStartups|Any CPU.ActiveCfg = MultipleStartups|Any CPU
+		{8CA1B84D-1536-431E-A51F-D946A2BAABB2}.MultipleStartups|Any CPU.Build.0 = MultipleStartups|Any CPU
 		{8CA1B84D-1536-431E-A51F-D946A2BAABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CA1B84D-1536-431E-A51F-D946A2BAABB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AA086C0-B067-43CF-AF5F-2DC8322BB64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AA086C0-B067-43CF-AF5F-2DC8322BB64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA086C0-B067-43CF-AF5F-2DC8322BB64C}.MultipleStartups|Any CPU.ActiveCfg = MultipleStartups|Any CPU
+		{5AA086C0-B067-43CF-AF5F-2DC8322BB64C}.MultipleStartups|Any CPU.Build.0 = MultipleStartups|Any CPU
 		{5AA086C0-B067-43CF-AF5F-2DC8322BB64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AA086C0-B067-43CF-AF5F-2DC8322BB64C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
