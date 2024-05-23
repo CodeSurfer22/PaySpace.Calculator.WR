@@ -1,0 +1,6 @@
+@TaxCalculator.API_HostAddress = http://localhost:5245
+
+GET {{TaxCalculator.API_HostAddress}}/TaxCalculations/
+Accept: application/json
+
+###

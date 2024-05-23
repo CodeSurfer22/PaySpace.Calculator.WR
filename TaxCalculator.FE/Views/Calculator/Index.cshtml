@@ -1,0 +1,56 @@
+﻿@model IEnumerable<TaxCalculator.FE.Models.Calculations_History
+>
+
+@{
+    ViewData["Title"] = "PaySpace Tax Calculation";
+}
+
+<h1>PaySpace Tax Calculation</h1>
+
+<!-- Form to input price and submit to Details action -->
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="postalCode">Postal Code:</label>
+        <input type="text" id="postalCode" name="postalCode" class="form-control" />
+        <label for="annualSalary">Annual Salary:</label>
+        <input type="number" id="annualSalary" name="annualSalary" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Calculate Tax</button>
+</form>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Timestamp</th>
+            <th scope="col">Postal Code</th>
+            <th scope="col">Income</th>
+            <th scope="col">Tax</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateCreated)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostalCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnnualIncome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TaxAmount)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
